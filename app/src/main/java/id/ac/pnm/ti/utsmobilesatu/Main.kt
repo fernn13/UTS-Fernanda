@@ -34,7 +34,6 @@ fun main() {
     }
 }
 
-
 // High order function filter and sort
 fun filterAndSort(clubs: List<Club>, options: (List<Club>) -> List<Club>): List<Club> {
     return options(clubs)

@@ -8,8 +8,8 @@ data class Club(
     val eflTrophies: Int,
     val championsLeagueTrophies: Int,
     val europaLeagueTrophies: Int
-) {
-    val totalTrophies: Int
+)
+{   val totalTrophies: Int
         get() = premierLeagueTrophies + faTrophies + eflTrophies + championsLeagueTrophies + europaLeagueTrophies
 
     // extension function recap
