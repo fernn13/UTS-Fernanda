@@ -2,7 +2,7 @@ package id.ac.pnm.ti.utsmobilesatu
 
 // data class Club
 data class Club(
-    val name: String = "",
+    val name: String,
     val premierLeagueTrophies: Int,
     val faTrophies: Int,
     val eflTrophies: Int,
